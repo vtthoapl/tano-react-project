@@ -30,6 +30,7 @@ export default class NavBar extends Component {
           <div className="user-container">
           <Navbar.Brand href="#">
           <BImg
+          className='ava-pic'
             src={ava}
             width="50"
             display="inline-block"
@@ -48,6 +49,7 @@ export default class NavBar extends Component {
         </Navbar.Brand>
         <Navbar.Brand href="#">
           <BImg
+          className="flag-pic"
             src={usaflag}
             width="50"
             display="inline-block"

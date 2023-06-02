@@ -7,6 +7,11 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
+
+*{
+    font-family: 'Roboto', sans-serif;;
+    line-height: 1.8;
+}
 /*-------------- Navbar-------------- */
 a{
     color: #000;
@@ -25,10 +30,18 @@ a ::hover {
 flex-direction: row;
 gap: 10%;
 }
-
+.nav-container{
+    padding: 1% 10%;
+}
 .main-container > .logomain {
     position: absolute;
     left: 10%;
+}
+.ava-pic {
+    border-radius: 50%;
+}
+.flag-pic{
+    border-radius: 10%;
 }
 
 /* -------CAROUSEL------- */
@@ -38,7 +51,19 @@ gap: 10%;
 }
 .carousel-caption {
     color: #000;
-    border: 1px solid green;
     padding: 10%;
+    row-gap: 1.8;
 
+}
+.carousel-title{
+    font-weight:lighter;
+    font-size: 2rem !important;
+}
+.carousel-price{
+    font-weight:900;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.carousel-caption a {
+    padding: 1rem 2.5rem;
 }

@@ -29,8 +29,8 @@ export default class CarouselPage extends Component {
           <Carousel.Item active>
             <BImg display="block" w="30" src={iphone1} />
             <Carousel.Caption display="none md-block">
-              <h5>MEGABOOM</h5>
-              <h1>$110,000,000</h1>
+              <h2 className='carousel-title'>MEGABOOM</h2>
+              <h1 className='carousel-price'>$110,000,000</h1>
               <a href="#carouselExampleFade" className="btn btn-success btn-lg">
                 ORDER TICKETS
               </a>
