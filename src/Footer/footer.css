@@ -1,0 +1,28 @@
+footer{
+    display: flex;
+    width: auto;
+    margin: 0;
+    padding: 3% 10%;
+    background-color: #262829;
+    position: relative;
+    bottom: 0;
+}
+.logo-footer{
+    background: url(../images/logoFooter.png) no-repeat;
+    width: 20%;
+}
+.footer-content{
+    display: flex;
+    justify-content: start;
+    color: #b4b1b1;
+    width: 80%;
+}
+.about-content{
+    width: calc(100% /2);
+}
+.info-content{
+    width: calc(100%/4)
+}
+.icons-content{
+    width: auto
+}
