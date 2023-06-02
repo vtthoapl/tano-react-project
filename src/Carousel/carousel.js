@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Bootstrap, { Carousel, BImg } from 'bootstrap-4-react';
 import iphone1 from '../images/iphone-1.png';
 import iphone2 from '../images/iphone-2.png';
+import '../Carousel/carousel.css';
 
 const first_src =
   'data:image/svg+xml;charset=UTF-8,' +
@@ -29,8 +30,8 @@ export default class CarouselPage extends Component {
           <Carousel.Item active>
             <BImg display="block" w="30" src={iphone1} />
             <Carousel.Caption display="none md-block">
-              <h2 className='carousel-title'>MEGABOOM</h2>
-              <h1 className='carousel-price'>$110,000,000</h1>
+              <h2 className="carousel-title">MEGABOOM</h2>
+              <h1 className="carousel-price">$110,000,000</h1>
               <a href="#carouselExampleFade" className="btn btn-success btn-lg">
                 ORDER TICKETS
               </a>
@@ -39,21 +40,21 @@ export default class CarouselPage extends Component {
           <Carousel.Item>
             <BImg display="block" w="30" src={iphone2} />
             <Carousel.Caption display="none md-block">
-              <h5 className='carousel-title'>MEGABOOM</h5>
-              <h1 className='carousel-price'>$110,000,000</h1>
+              <h5 className="carousel-title">MEGABOOM</h5>
+              <h1 className="carousel-price">$110,000,000</h1>
               <a href="#carouselExampleFade" className="btn btn-success btn-lg">
                 ORDER TICKETS
               </a>
             </Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item>
-            <Carousel.Caption display="none md-block">
-              <h5 className='carousel-title'>MEGABOOM</h5>
-              <h1 className='carousel-price'>$110,000,000</h1>
-              <a href="#carouselExampleFade" className="btn btn-success btn-lg">
-                ORDER TICKETS
-              </a>
-            </Carousel.Caption>
+          <Carousel.Item className="nopic-caption">
+            {/* <Carousel.Caption className='nopic-caption' display="none md-block">
+            </Carousel.Caption> */}
+            <h5 className="carousel-title">MEGABOOM</h5>
+            <h1 className="carousel-price">$110,000,000</h1>
+            <a href="#carouselExampleFade" className="btn btn-success btn-lg">
+              ORDER TICKETS
+            </a>
           </Carousel.Item>
         </Carousel.Inner>
         <Carousel.Prev href="#carouselExampleControls">

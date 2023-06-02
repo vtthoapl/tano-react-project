@@ -1,0 +1,32 @@
+/* -------CAROUSEL------- */
+
+.carousel-item{
+    margin: 0 ;
+    padding: 0 20%;
+}
+.carousel-caption {
+    color: #000;
+    width: 50%;
+    padding: 10% 40%;
+    row-gap: 1.8;
+
+}
+.carousel-title{
+    font-weight:lighter;
+    font-size: 2rem !important;
+}
+.carousel-price{
+    font-weight:900;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.carousel-caption a {
+    padding: 1rem 2.5rem;
+}
+.nopic-caption{
+    padding: 10%;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+
+}
