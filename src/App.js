@@ -1,10 +1,12 @@
 import './App.css';
-import Nav from './Nav/Nav';
+import CarouselPage from './Carousel/carousel';
+import NavBar from './Nav/navBar';
 
 function App() {
   return (
     <div className="App">
-      <Nav />
+      <NavBar />
+      <CarouselPage />
     </div>
   );
 }

@@ -1,0 +1,44 @@
+/* color
+hover color: #39c46b
+*/
+body{
+    background-image: url(../images/left-patten.png);
+    background-repeat: no-repeat;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*-------------- Navbar-------------- */
+a{
+    color: #000;
+}
+a ::hover {
+    color:#39c46b ;
+}
+.nav-container{
+    width: 100%;
+    color: #000;
+    align-items: baseline;
+}
+
+.main-container, 
+.user-container {
+flex-direction: row;
+gap: 10%;
+}
+
+.main-container > .logomain {
+    position: absolute;
+    left: 10%;
+}
+
+/* -------CAROUSEL------- */
+
+.carousel-item{
+    margin: 0 20%;
+}
+.carousel-caption {
+    color: #000;
+    border: 1px solid green;
+    padding: 10%;
+
+}
