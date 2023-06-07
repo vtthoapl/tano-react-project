@@ -26,9 +26,15 @@ export default class CarouselPage extends Component {
 
   render() {
     return (
-      <Carousel className='carousel-container' w="100" id="carouselExampleControls" > {/* aria-label="Page navigation example" */}
+      <Carousel
+        className="carousel-container"
+        w="100"
+        id="carouselExampleControls"
+      >
+        {' '}
+        {/* aria-label="Page navigation example" */}
         <Carousel.Inner>
-          <Carousel.Item active>
+          <Carousel.Item id='carousel1' active>
             <BImg display="block" w="30" src={iphone1} />
             <Carousel.Caption display="none md-block">
               <h2 className="carousel-title">MEGABOOM</h2>
@@ -38,7 +44,7 @@ export default class CarouselPage extends Component {
               </a>
             </Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item>
+          <Carousel.Item id='carousel2'>
             <BImg display="block" w="30" src={iphone2} />
             <Carousel.Caption display="none md-block">
               <h5 className="carousel-title">MEGABOOM</h5>
@@ -48,7 +54,7 @@ export default class CarouselPage extends Component {
               </a>
             </Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item className="nopic-caption">
+          <Carousel.Item id='carousel3' className="nopic-caption">
             {/* <Carousel.Caption className='nopic-caption' display="none md-block">
             </Carousel.Caption> */}
             <h5 className="carousel-title">MEGABOOM</h5>
@@ -64,13 +70,11 @@ export default class CarouselPage extends Component {
         <Carousel.Next href="#carouselExampleControls">
           <Carousel.Next.Icon />
         </Carousel.Next>
-       {/*  <Pagination className='page-container'>
-          <Pagination.ItemLink className='page-number'></Pagination.ItemLink>
-          <Pagination.Item active>
-            <Pagination.Link className='page-number'></Pagination.Link>
-          </Pagination.Item>
-          <Pagination.ItemLink className='page-number' href></Pagination.ItemLink>
-        </Pagination> */}
+        <div class="pagination">
+          <a href="#carouselExampleControls"></a>
+          <a class="active" href="#carouselExampleControls"></a>
+          <a href="#carouselExampleControls"></a>
+        </div>
       </Carousel>
     );
   }

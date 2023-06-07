@@ -3,7 +3,7 @@
     background-image: url(../images/right-patten.png);
     background-repeat: no-repeat;
     background-position: right bottom;
-    padding: 5%;
+    padding: 1%;
 }
 .carousel-item{
     margin: 0 ;
@@ -33,28 +33,25 @@
     margin: auto;
     text-align: center;
     width: 100%;
-
 }
-/* .page-container{
+/* pagination */
+.pagination {
     display:flex;
-    gap: 1%;
     justify-content: center;
-}
-/* .page-number{
-    background: #fff;
-    
-} 
-
-.page-item.active .page-link{
-    background-color: #cc1315;
-    outline-color: none;
-}
-.page-item.page-link{
+    gap: 10px;
+    padding: 2%;
+  }
+  
+  .pagination a {
+    color: black;
+    padding: 4px 8px;
+    text-decoration: none;
+    border: 1px solid #cc1315;
     border-radius: 50%;
-}
-.page-item:first-child .page-link{
-    border-radius: 50%;
-}
-.page-item:last-child .page-link{
-    border-radius: 50%;
-} */
+  }
+  
+  .pagination a:hover {
+    background-color:#cc1315;;
+  }
+ 
+ 
