@@ -3,6 +3,7 @@ import Bootstrap, { Carousel, BImg } from 'bootstrap-4-react';
 import iphone1 from '../images/iphone-1.png';
 import iphone2 from '../images/iphone-2.png';
 import '../Carousel/carousel.css';
+import { Pagination } from 'bootstrap-4-react';
 
 /* const first_src =
   'data:image/svg+xml;charset=UTF-8,' +
@@ -25,7 +26,7 @@ export default class CarouselPage extends Component {
 
   render() {
     return (
-      <Carousel className='carousel-container' w="100" id="carouselExampleControls">
+      <Carousel className='carousel-container' w="100" id="carouselExampleControls" > {/* aria-label="Page navigation example" */}
         <Carousel.Inner>
           <Carousel.Item active>
             <BImg display="block" w="30" src={iphone1} />
@@ -63,6 +64,13 @@ export default class CarouselPage extends Component {
         <Carousel.Next href="#carouselExampleControls">
           <Carousel.Next.Icon />
         </Carousel.Next>
+       {/*  <Pagination className='page-container'>
+          <Pagination.ItemLink className='page-number'></Pagination.ItemLink>
+          <Pagination.Item active>
+            <Pagination.Link className='page-number'></Pagination.Link>
+          </Pagination.Item>
+          <Pagination.ItemLink className='page-number' href></Pagination.ItemLink>
+        </Pagination> */}
       </Carousel>
     );
   }
