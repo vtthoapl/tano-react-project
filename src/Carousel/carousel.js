@@ -25,7 +25,7 @@ export default class CarouselPage extends Component {
 
   render() {
     return (
-      <Carousel w="100" id="carouselExampleControls">
+      <Carousel className='carousel-container' w="100" id="carouselExampleControls">
         <Carousel.Inner>
           <Carousel.Item active>
             <BImg display="block" w="30" src={iphone1} />

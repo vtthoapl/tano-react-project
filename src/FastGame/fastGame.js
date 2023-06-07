@@ -1,44 +1,57 @@
 import React, { Component } from 'react';
 import './fastGame.css';
+import { BDiv, List } from 'bootstrap-4-react';
 
 export default class FastGame extends Component {
   render() {
     return (
-      <div className="fastgame">
-        <div className="container">
-          <div className="row">
-            <div className="col">Fast Game</div>
-            <div className="col">
-              <div
-                className="btn-group"
-                role="group"
-                aria-label="Basic example"
-              >
-                <button  className="btn">
-                  1
-                </button>
-                <button  className="btn">
-                  2
-                </button>
-                <button  className="btn">
-                  3
-                </button>
-                <button  className="btn">
-                  4
-                </button>
-                <button  className="btn">
-                  5
-                </button>
-                <button className="btn">
-                  6
-                </button>
-              </div>
-            </div>
-            <div className="col">
-              Until next draw <span>10:30</span>
-            </div>
-          </div>
-        </div>
+      <div className='fastgame'>
+      <BDiv
+        className="fastgame-container"
+        display="flex"
+      >
+        <BDiv className='title-cover'>
+        <h3 className='title-heading'> FastGame</h3>
+        </BDiv>
+        <BDiv className='number-container' p="2">
+          <List inline>
+            <List.Item inline className="number-border">
+              <a className="number-a" href>
+                1
+              </a>
+            </List.Item>
+            <List.Item inline className="number-border">
+              <a className="number-a" href>
+                2
+              </a>
+            </List.Item>
+            <List.Item inline className="number-border">
+              <a className="number-a" href>
+                3
+              </a>
+            </List.Item>
+            <List.Item inline className="number-border">
+              <a className="number-a" href>
+                4
+              </a>
+            </List.Item>
+            <List.Item inline className="number-border">
+              <a className="number-a" href>
+                5
+              </a>
+            </List.Item>
+            <List.Item inline className="number-border">
+              <a className="number-a" href>
+                6
+              </a>
+            </List.Item>
+          </List>
+        </BDiv>
+        <BDiv p="2">
+          <span className='heading-span'>Until next draw</span>
+          <trong className='time-strong'>10:30</trong>
+        </BDiv>
+      </BDiv>
       </div>
     );
   }

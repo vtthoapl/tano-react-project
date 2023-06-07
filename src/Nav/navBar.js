@@ -2,15 +2,15 @@ import logomain from '../images/logomain.png';
 import ava from '../images/ava.png';
 import coin from '../images/coin.png';
 import usaflag from '../images/usaflag.png';
-
- 
 import React, { Component } from 'react';
 import { Navbar, Nav, BImg} from 'bootstrap-4-react';
 import '../Nav/navBar.css';
+import CarouselPage from '../Carousel/carousel';
 
 export default class NavBar extends Component {
   render() {
     return (
+      <div className='nav-casoulse'>
       <Navbar className="nav-container">
         <Navbar.Brand href="#">
           <BImg className="logomain"
@@ -59,6 +59,8 @@ export default class NavBar extends Component {
         </Navbar.Brand>
           </div>
       </Navbar>
+      <CarouselPage />
+      </div>
     );
   }
 }

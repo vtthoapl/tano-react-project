@@ -1,17 +1,17 @@
 /* color
 hover color: #39c46b
 */
-body{
+.nav-casoulse{
+    background-color: #f5f7fb;
     background-image: url(../images/left-patten.png);
     background-repeat: no-repeat;
     margin: 0;
     box-sizing: border-box;
-}
-
-*{
     font-family: 'Roboto', sans-serif;;
     line-height: 1.8;
+
 }
+
 /*-------------- Navbar-------------- */
 a{
     color: #000;

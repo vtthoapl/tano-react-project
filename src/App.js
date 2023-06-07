@@ -1,5 +1,4 @@
 
-
 import './App.css';
 import CarouselPage from './Carousel/carousel';
 import FastGame from './FastGame/fastGame';
@@ -14,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <CarouselPage />
+    {/*   <CarouselPage /> is inside Nav page */}
       <FastGame />
       <Table />
       <Services />

@@ -1,5 +1,9 @@
 /* -------CAROUSEL------- */
-
+.carousel-container{
+    background-image: url(../images/right-patten.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
 .carousel-item{
     margin: 0 ;
     padding: 0 20%;
