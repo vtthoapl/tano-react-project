@@ -4,7 +4,7 @@ import iphone1 from '../images/iphone-1.png';
 import iphone2 from '../images/iphone-2.png';
 import '../Carousel/carousel.css';
 
-const first_src =
+/* const first_src =
   'data:image/svg+xml;charset=UTF-8,' +
   '<svg%20xmlns%3D"http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg"%20width%3D"286"%20height%3D"180"%20viewBox%3D"0%200%20286%20180"%20preserveAspectRatio%3D"none">' +
   '<g%20fill%3D"rgba(255%2C255%2C255%2C.75)"%20font-family%3D"Helvetica%2C%20monospace"%20font-size%3D"14pt">' +
@@ -13,7 +13,7 @@ const first_src =
   '<%2Fg><%2Fsvg>';
 
 const second_src = first_src.replace('First', 'Second');
-const third_src = first_src.replace('First', 'Third');
+const third_src = first_src.replace('First', 'Third'); */
 
 export default class CarouselPage extends Component {
   componentWillMount() {

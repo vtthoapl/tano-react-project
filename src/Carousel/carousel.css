@@ -3,6 +3,7 @@
     background-image: url(../images/right-patten.png);
     background-repeat: no-repeat;
     background-position: right bottom;
+    padding: 5%;
 }
 .carousel-item{
     margin: 0 ;
