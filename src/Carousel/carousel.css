@@ -1,4 +1,7 @@
 /* -------CAROUSEL------- */
+:root {
+    --red:#cc1315
+  }
 .carousel-container{
     background-image: url(../images/right-patten.png);
     background-repeat: no-repeat;

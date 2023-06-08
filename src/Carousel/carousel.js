@@ -70,11 +70,11 @@ export default class CarouselPage extends Component {
         <Carousel.Next href="#carouselExampleControls">
           <Carousel.Next.Icon />
         </Carousel.Next>
-        <div class="pagination">
+        {/* <div class="pagination">
           <a href="#carouselExampleControls"></a>
           <a class="active" href="#carouselExampleControls"></a>
           <a href="#carouselExampleControls"></a>
-        </div>
+        </div> */}
       </Carousel>
     );
   }
