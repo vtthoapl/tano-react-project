@@ -1,7 +1,5 @@
 /* -------CAROUSEL------- */
-:root {
-    --red:#cc1315
-  }
+
 .carousel-container{
     background-image: url(../images/right-patten.png);
     background-repeat: no-repeat;
@@ -54,7 +52,8 @@
   }
   
   .pagination a:hover {
-    background-color:#cc1315;;
+    background-color:#cc1315;
+
   }
  
  
