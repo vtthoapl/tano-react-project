@@ -1,0 +1,38 @@
+footer{
+    display: flex;
+    width: auto;
+    margin: 0;
+    padding: 3% 5%;
+    background-color: #262829;
+    position: relative;
+    bottom: 0;
+}
+.logo-footer{
+    background: url(../images/logoFooter.png) no-repeat;
+    width: 20%;
+}
+.footer-content{
+    display: flex;
+    justify-content: start;
+    color: #b4b1b1;
+    width: 80%;
+    gap: 10%;
+}
+.about-content{
+    width: calc(100% /2);
+}
+.info-content{
+    width: calc(100%/4)
+}
+/* .icons-content{
+    justify-self: start;
+} */
+ .icons-footer{
+    width: auto;
+    display:inline-flex;
+    list-style-type: none;
+    gap: 30px;
+}
+li{
+    list-style-type: none;
+}

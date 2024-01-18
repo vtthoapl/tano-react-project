@@ -1,0 +1,38 @@
+.services-container {
+  margin: 4% 10%;
+}
+.services-collumn {
+  width: calc(100% / 4);
+  margin-right: 2%;
+  text-align: center;
+}
+.image-container {
+  margin: 0 auto;
+}
+.collumn-image {
+  object-fit: cover;
+}
+h3 {
+  margin: 15px 0;
+}
+
+.signup-container {
+  margin: 0 auto;
+  margin-bottom: 2em;
+  text-align: center;
+}
+.signUp-a {
+  background-color: #cc1315;
+  color: #fff!important;
+  font-size: 20px;
+  padding: 15px 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  /* -webkit-transition: 0.3s; */
+  transition: 0.3s;
+  font-weight: 500 !important;
+  outline: none !important;
+}
+.signUp-a:hover {
+    background: #393e46 !important;
+  }

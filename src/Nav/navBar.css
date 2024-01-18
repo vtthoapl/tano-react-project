@@ -1,0 +1,46 @@
+/* color
+hover color: #39c46b
+*/
+.nav-casoulse{
+    background-color: #f5f7fb;
+    background-image: url(../images/left-patten.png);
+    background-repeat: no-repeat;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;;
+    line-height: 1.8;
+
+}
+
+/*-------------- Navbar-------------- */
+a{
+    color: #000;
+}
+a ::hover {
+    color:#39c46b ;
+}
+.nav-container{
+    width: 100%;
+    color: #000;
+    align-items: baseline;
+}
+
+.main-container, 
+.user-container {
+flex-direction: row;
+gap: 10%;
+}
+.nav-container{
+    padding: 1% 10%;
+}
+.main-container > .logomain {
+    position: absolute;
+    left: 10%;
+}
+.ava-pic {
+    border-radius: 50%;
+}
+.flag-pic{
+    border-radius: 10%;
+}
+

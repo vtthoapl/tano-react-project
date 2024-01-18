@@ -1,0 +1,19 @@
+
+/* .card-cover{
+    margin: 0 auto;
+    border: 1px solid red;
+}
+.master-card, .visa-card{
+    margin: 5% 10%;
+}
+ */
+.card-container{
+    background-color: #f5f7fb;
+}
+.card-content{
+    list-style-type: none;
+    padding: 5%;
+    display: flex;
+    gap: 2% ;
+    justify-content: center;
+}
